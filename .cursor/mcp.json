@@ -1,6 +1,6 @@
 {
 	"mcpServers": {
-		"starwind ui": {
+		"MDS Copilot": {
 			"command": "node",
 			"args": ["~/dev/mds-copilot/packages/mds-mcp/dist/server.js"],
 			"env": {}
