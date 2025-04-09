@@ -44,7 +44,7 @@ The PM/Designer will give you instructions to implement the features or create a
 - Verify and use the component props only if they exist.
 - Always use React with TypeScript (.tsx) for components and (.ts) for logic files.
 - Refer helper css classnames from the ./.github/design-system.css
-- Refer specific component patterns from ./.github/stories
+- Refer specific component patterns from ./.github/stories/*
 - Avoid custom stylings and inline styles and use design system components and styling.
 
 ### State Management and Data Fetching
