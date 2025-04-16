@@ -1,0 +1,17 @@
+/* helpers.css */
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.text-strong {
+  font-weight: 600;
+}

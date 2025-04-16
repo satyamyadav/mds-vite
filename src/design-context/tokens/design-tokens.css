@@ -1,0 +1,13 @@
+/* design-tokens.css */
+
+:root {
+  --color-primary: #2d5fff;
+  --color-danger: #ff4d4f;
+  --font-size-base: 14px;
+  --space-sm: 4px;
+  --space-md: 8px;
+  --space-lg: 16px;
+  --radius-md: 4px;
+  --z-index-dropdown: 1000;
+  /* ... */
+}

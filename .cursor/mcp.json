@@ -2,7 +2,7 @@
 	"mcpServers": {
 		"MDS Copilot": {
 			"command": "node",
-			"args": ["~/dev/mds-copilot/packages/mds-mcp/dist/server.js"],
+			"args": ["/Users/satyamyadav/dev/mds-copilot/packages/mds-chef-mcp/mcp-server/build/index.js"],
 			"env": {}
 		}
 	}

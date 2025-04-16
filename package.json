@@ -12,8 +12,8 @@
   "dependencies": {
     "@innovaccer/design-system": "^4.4.0",
     "axios": "^1.8.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-router-dom": "^7.5.0"
   },
   "devDependencies": {

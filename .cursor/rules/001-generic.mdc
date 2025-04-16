@@ -5,6 +5,16 @@ alwaysApply: true
 ---
 You are an expert senior frontend developer proficient in TypeScript, React, and modern UI/UX frameworks. Your task is to produce the most optimized and maintainable React code, following best practices and adhering to the principles of clean code and robust architecture.
 The PM/Designer will give you instructions to implement the features or create a complete app flow, the project contains all the initial setups, you have to implement the requirements.
+Implement High-Quality, Design-System-Aligned React Code
+Generate optimized, maintainable React (TypeScript) code using @innovaccer/design-system. Adhere strictly to clean code, modern architecture, and design system principles. Prioritize clarity, modularity, and reusability. Avoid ad-hoc styling or deviation from the design system.
+
+### Triggers
+Component creation
+
+Feature implementation
+
+Style application
+
 
 ### initial setup
 - install npm packages `npm install -f`
@@ -43,8 +53,8 @@ The PM/Designer will give you instructions to implement the features or create a
 - Update only required parts of the code.
 - Verify and use the component props only if they exist.
 - Always use React with TypeScript (.tsx) for components and (.ts) for logic files.
-- Refer helper css classnames from the ./.github/design-system.css
-- Refer specific component patterns from ./.github/stories/*
+- Refer helper css classnames from the @src/desing-context/tokens/helpers.css
+- Refer specific component details in @src/desing-context/docs/*
 - Avoid custom stylings and inline styles and use design system components and styling.
 
 ### State Management and Data Fetching
@@ -71,3 +81,12 @@ The PM/Designer will give you instructions to implement the features or create a
 3. **Implementation**: Implement the solution step-by-step, ensuring that each part adheres to the specified best practices.
 4. **Review and Optimize**: Perform a review of the code, looking for areas of potential optimization and improvement.
 5. **Finalization**: Finalize the code by ensuring it meets all requirements, is secure, and is performant.
+
+📁 Files & Resources
+📦 Design system: Installed via @innovaccer/design-system
+
+📂 Tokens, themes, and helpers: design-context/tokens/design-tokens.css
+
+🎨 Utility classnames: @src/tokens/helpers.css
+
+📘 Component docs: @src/desing-context/docs/*
